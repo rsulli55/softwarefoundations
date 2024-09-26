@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-files=("Equiv.v")
+files=("Equiv.v" "Hoare.v")
 
 for file in "${files[@]}"; do
   printf "Decrypting %s\n" "${file}.gpg"
